@@ -20,7 +20,7 @@ def start_autoclicker():
     global running
     global total_seconds
     running = True
-    status_label.configure(text="Status: Running")
+    status_label.configure(text="Status: Running  F6 To Stop")
     print("Auto-clicker started. Press F6 to stop.")
 
     while running:
